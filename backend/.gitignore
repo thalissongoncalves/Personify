@@ -1,0 +1,17 @@
+# Arquivos de ambiente do Python
+.env
+__pycache__/
+*.py[cod]
+
+# Dependências do Python
+/venv
+
+# Configurações do editor
+.vscode/
+
+# Arquivos de banco de dados locais
+*.sqlite3
+
+# Logs e arquivos temporários
+*.log
+*.tmp
