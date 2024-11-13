@@ -3,7 +3,26 @@
 Este é o backend da aplicação Personify, desenvolvido com Flask. Ele é responsável por gerenciar as requisições, realizar operações no banco de dados MySQL e servir a API para o frontend.
 
 ## Instalação
-(Instruções detalhadas serão fornecidas posteriormente)
+
+### Pré-requisitos
+- **Python** instalado (versão 3.7+)
+- **MySQL** configurado
+
+### Passo a Passo
+1. **Instale as dependências**:
+   ```bash
+   pip install -r requirements.txt
+
+2. **Configuração do Banco de Dados**:
+   - Configure o banco de dados no arquivo ```config.py``` com suas credenciais de MySQL.
+   - Execute o script ```database.py``` para criar as tabelas.
+
+3. **Inicie o Servidor**:
+   ```bash
+   flask run
+
+## Tecnologias utilizadas para Testes
+- **Pytest**: Certifique-se de estar na pasta ```/backend``` e execute o comando ```pytest``` (Caso não dê certo, verifique se tem o pytest instalado)
 
 ## API Endpoints
 
